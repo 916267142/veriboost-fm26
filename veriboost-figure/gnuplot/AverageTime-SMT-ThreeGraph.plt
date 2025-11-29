@@ -1,4 +1,4 @@
-set terminal pdfcairo font "Times New Roman,9" linewidth 1 rounded fontscale 1.2 size 45cm, 6.5cm
+set terminal pdfcairo font "Times New Roman,9" linewidth 1 rounded fontscale 1.2 size 30cm, 6cm
 
 #### set background
 # Line style for axes
@@ -62,15 +62,15 @@ set size 1, 0.9
 
 set boxwidth 1.0
 
-set key width -0.30 Left vertical maxrows 1 reverse samplen 1 at screen 0.94, 0.97 font ', 11'
+set key width -0.30 Left vertical maxrows 2 reverse samplen 1 at screen 0.75, 1.00 font ', 11'
 
-set multiplot layout 1,3 margins 0.06, 0.97, 0.15, 0.79 spacing 0.07
+set multiplot layout 1,3 margins 0.07, 0.97, 0.17, 0.73 spacing 0.05
 
 set yrange[0:5]
 bot=0
 set ytics  ("0" 0-bot, "1" 1-bot, "2" 2-bot, "3" 3-bot, "4" 4-bot, "5" 5-bot)
-plot "data/AverageTime-SMT-BGP-Bics.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern 7 t'MS-SAT', \
-     "" u ($3/1000-bot) ls 2 fs pattern 2 t'MS-UNSAT' , \
+plot "data/AverageTime-SMT-BGP-Bics.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern 7 t'Minesweeper-SAT', \
+     "" u ($3/1000-bot) ls 2 fs pattern 2 t'Minesweeper-UNSAT' , \
      "" u ($4/1000-bot) ls 3 fs pattern 7 t'NetSMT-SAT', \
      "" u ($5/1000-bot) ls 3 fs pattern 2 t'NetSMT-UNSAT', \
      "" u ($6/1000-bot) ls 5 fs pattern 7 t'VeriBoost-SAT', \
@@ -81,8 +81,8 @@ plot "data/AverageTime-SMT-BGP-Bics.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern
 bot=0
 set yrange[0:50]
 set ytics  ("0" 0-bot, "10" 10-bot, "20" 20-bot, "30" 30-bot, "40" 40-bot, "50" 50-bot)
-plot "data/AverageTime-SMT-BGP-Columbus.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern 7 t'MS-SAT', \
-     "" u ($3/1000-bot) ls 2 fs pattern 2 t'MS-UNSAT' , \
+plot "data/AverageTime-SMT-BGP-Columbus.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern 7 t'Minesweeper-SAT', \
+     "" u ($3/1000-bot) ls 2 fs pattern 2 t'Minesweeper-UNSAT' , \
      "" u ($4/1000-bot) ls 3 fs pattern 7 t'NetSMT-SAT', \
      "" u ($5/1000-bot) ls 3 fs pattern 2 t'NetSMT-UNSAT', \
      "" u ($6/1000-bot) ls 5 fs pattern 7 t'VeriBoost-SAT', \
@@ -91,8 +91,8 @@ plot "data/AverageTime-SMT-BGP-Columbus.dat" u ($2/1000-bot):xtic(1) ls 2 fs pat
 bot=-10
 set yrange[0:210]
 set ytics  ("-10" -10-bot, "40" 40-bot, "80" 80-bot, "120" 120-bot, "160" 160-bot, "200" 200-bot)
-plot "data/AverageTime-SMT-BGP-Uscarrier.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern 7 t'MS-SAT', \
-     "" u ($3/1000-bot) ls 2 fs pattern 2 t'MS-UNSAT' , \
+plot "data/AverageTime-SMT-BGP-Uscarrier.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern 7 t'Minesweeper-SAT', \
+     "" u ($3/1000-bot) ls 2 fs pattern 2 t'Minesweeper-UNSAT' , \
      "" u ($4/1000-bot) ls 3 fs pattern 7 t'NetSMT-SAT', \
      "" u ($5/1000-bot) ls 3 fs pattern 2 t'NetSMT-UNSAT', \
      "" u ($6/1000-bot) ls 5 fs pattern 7 t'VeriBoost-SAT', \

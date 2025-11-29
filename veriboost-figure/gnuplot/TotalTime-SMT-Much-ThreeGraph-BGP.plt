@@ -1,4 +1,4 @@
-set terminal pdfcairo font "Times New Roman,10.5" linewidth 1 rounded fontscale 1.35 size 45cm, 7cm
+set terminal pdfcairo font "Times New Roman,10.5" linewidth 1 rounded fontscale 1.35 size 30cm, 6cm
 
 #### set background
 # Line style for axes
@@ -47,7 +47,7 @@ set mytics 10    # Makes logscale look good.
 #set xtics ("bics" 1, "columbus" 2, "uscarrier" 3)
 #set format y "10^{%L}"
 #set key reverse Left samplen 3 at screen 0.52, 0.95 font ',9'
-set key width 10 Left vertical maxrows 1 reverse samplen 1 at screen 0.85, 1.06  font ',11' spacing 2
+set key width 10 Left vertical maxrows 1 reverse samplen 1 at screen 1.01, 1.06  font ',11' spacing 2
 set bmargin screen 0.33
 set tmargin at screen 0.9
 set rmargin screen 0.93
@@ -68,12 +68,12 @@ set style data histogram
 set style histogram clustered gap 1 title offset 0,-1
 # set boxwidth 0.7
 
-set multiplot layout 1,3 margins 0.06, 0.97, 0.22, 0.82 spacing 0.07
+set multiplot layout 1,3 margins 0.07, 0.97, 0.23, 0.82 spacing 0.05
 
 
 set size 1, 0.9
 set offsets 0.5,0.5,0,0
-set label 'k=1' at screen 0.105,0.74 center font ',11'
+set label 'k=1' at screen 0.140,0.74 center font ',11'
 plot 'data/TotalTime-SMT-BGP-Much-K1.dat' u 2:xtic(1) w histogram fs pattern 3 ls 2 t'Minesweeper', \
 	'' u 3 w histogram fs pattern 2 ls 3 t'NetSMT', \
 	'' u 4 w histogram fs pattern 7 ls 5 t'VeriBoost', \
@@ -81,7 +81,7 @@ plot 'data/TotalTime-SMT-BGP-Much-K1.dat' u 2:xtic(1) w histogram fs pattern 3 l
 
 set size 1, 0.9
 set offsets 0.5,0.5,0,0
-set label 'k=2' at screen 0.43,0.74 center font ',11'
+set label 'k=2' at screen 0.45,0.74 center font ',11'
 plot 'data/TotalTime-SMT-BGP-Much-K2.dat' u 2:xtic(1) w histogram fs pattern 3 ls 2 t'Minesweeper', \
 	'' u 3 w histogram fs pattern 2 ls 3 t'NetSMT', \
 	'' u 4 w histogram fs pattern 7 ls 5 t'VeriBoost', \
