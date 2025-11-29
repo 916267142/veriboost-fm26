@@ -1,25 +1,12 @@
 set terminal pdfcairo font "Times New Roman,9" linewidth 1 rounded fontscale 1.2 size 30cm, 6cm
 
-#### set background
-# Line style for axes
 set style line 80 lt rgb "#808080"
 set style line 81 lt 0 # dashed
 set style line 81 lt rgb "#808080" # grey
-
-# Remove border on top and right.  These
-# borders are useless and make it harder
-# to see plotted lines near the border.
-# Also, put it in grey; no need for so much emphasis on a border.
 set grid back linestyle 81
 set border 3 back linestyle 80
 set xtics nomirror
 set ytics nomirror
-
-#### set linestype
-# Line styles: try to pick pleasing colors, rather
-# than strictly primary colors or hard-to-see colors
-# like gnuplot's default yellow.  Make the lines thick
-# so they're easy to see in small plots in papers.
 
 set style line 1 lt rgb "#A00000" lw 3 pt 1 ps 1.5
 set style line 2 lt rgb "#74c476" lw 3 pt 6 ps 1.5
@@ -28,30 +15,11 @@ set style line 4 lt rgb "#00A000" lw 3 pt 9 ps 1.5
 set style line 5 lt rgb "#253494" lw 3 pt 12 ps 1.5
 set style line 6 lt rgb "#4F4F4F" lw 3
 
-#### set image properties
 set style histogram clustered gap 1 title offset 0,-1
 set style data histogram
 set xtics font ", 13"
 set ytics font ", 13"
 set boxwidth 0.9
-# set xtics border in scale 0,0 nomirror rotate by -45 autojustify
-# set log y
-# set mytics 10    # Makes logscale look good.
-#set ylabel "Time (s)"
-
-# set ytics (1e0, 1e2, 1e4, 1e6, 1e8)
-# set ytics (-400, 1e0, 1e2, 1e4, 1e6, 1e8)
-# set format y "10^{%L}"
-#set key reverse Left samplen 1 at screen 0.32, 0.95 font ',9'
-
-#set bmargin screen 0.10
-#set rmargin screen 0.10
-# set label center at screen 0.21,0.065 "bics" font ',9'
-#set rmargin 0.01
-
-
-#set label center at screen 0.32,0.065 "columbus" font ',9' 
-
 
 set yrange[0:26]
 bot=-1
@@ -75,8 +43,6 @@ plot "data/AverageTime-SMT-BGP-Bics.dat" u ($2/1000-bot):xtic(1) ls 2 fs pattern
      "" u ($5/1000-bot) ls 3 fs pattern 2 t'NetSMT-UNSAT', \
      "" u ($6/1000-bot) ls 5 fs pattern 7 t'VeriBoost-SAT', \
      "" u ($7/1000-bot) ls 5 fs pattern 2 t'VeriBoost-UNSAT', \
-
-#set label center at screen 0.463,0.802 "bics-ospf" font ',9'
      
 bot=0
 set yrange[0:50]

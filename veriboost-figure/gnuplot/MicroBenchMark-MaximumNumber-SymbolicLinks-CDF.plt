@@ -1,6 +1,5 @@
 set terminal pdfcairo font "Times New Roman,13" linewidth 1 rounded fontscale 1.35 size 26cm, 9cm
 
-# 样式
 set style line 80 lt rgb "#808080"
 set style line 81 lt 0 # dashed
 set style line 81 lt rgb "#808080" # grey
@@ -34,10 +33,6 @@ set rmargin screen 0.94
 set output 'results/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.pdf'
 set size 1, 0.9
 
-# ==============================
-# 核心：生成多列 CCDF
-# ==============================
-# 用 stats 得到行数
 stats 'data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using 1 nooutput
 N = STATS_records
 
