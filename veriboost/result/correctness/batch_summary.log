@@ -1,0 +1,20 @@
+==========================================
+🔍 Batch comparison started at: 2025-11-29 19:33:27 CST
+🔍 Comparing: ./result/bgp/minesweeper/ vs ./result/bgp/veriboost/
+🎉 SUCCESS: All comparisons completed successfully!
+==========================================
+==========================================
+🔍 Batch comparison started at: 2025-11-29 19:33:27 CST
+🔍 Comparing: ./result/ospf/minesweeper/ vs ./result/ospf/veriboost/
+🎉 SUCCESS: All comparisons completed successfully!
+==========================================
+==========================================
+🔍 Batch comparison started at: 2025-11-29 21:05:16 CST
+🔍 Comparing: ./result/bgp/minesweeper/ vs ./result/bgp/veriboost/
+🎉 SUCCESS: All comparisons completed successfully!
+==========================================
+==========================================
+🔍 Batch comparison started at: 2025-11-29 21:05:16 CST
+🔍 Comparing: ./result/ospf/minesweeper/ vs ./result/ospf/veriboost/
+🎉 SUCCESS: All comparisons completed successfully!
+==========================================

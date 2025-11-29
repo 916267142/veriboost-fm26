@@ -1,0 +1,7 @@
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+
+init-snapshot /home/simple/Desktop/project/minesweeper-results/uscarrier/bgp uscarrier
+test tests/java-smt/usc1-reachability.ref get smt-reachability ingressNodeRegex="panamattcity", finalNodeRegex="raleigh", finalIfaceRegex="GigabitEthernet0/0", failures=3, fullModel=True

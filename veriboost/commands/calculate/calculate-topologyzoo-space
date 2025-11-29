@@ -1,0 +1,7 @@
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+
+init-snapshot dataset/empty only-for-initial-batfish
+get smt-calculate-space configPath="dataset/topologyzoo"

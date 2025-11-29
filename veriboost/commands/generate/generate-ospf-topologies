@@ -1,0 +1,13 @@
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+
+init-snapshot dataset/ospf/bics bics-ospf
+get smt-topology topologyPath="dataset/ospf/bics/topology.html"
+
+init-snapshot dataset/ospf/columbus columbus-ospf
+get smt-topology topologyPath="dataset/ospf/columbus/topology.html"
+
+init-snapshot dataset/ospf/uscarrier uscarrier-ospf
+get smt-topology topologyPath="dataset/ospf/uscarrier/topology.html"
