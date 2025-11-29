@@ -1,7 +1,0 @@
-add-batfish-option haltonconverterror
-add-batfish-option haltonparseerror
-add-batfish-option loglevel fatal
-add-batfish-option initinfo false
-
-init-snapshot dataset/ospf/bics bics
-get smt-num-paths finalNodeRegex="paris", finalIfaceRegex="FastEthernet0/0", ingressNodeRegex="lyon", NumPaths=3, fullModel=True, failures=0

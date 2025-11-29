@@ -1,8 +1,0 @@
-add-batfish-option haltonconverterror
-add-batfish-option haltonparseerror
-add-batfish-option loglevel fatal
-add-batfish-option initinfo false
-
-
-init-snapshot dataset/netsmt/disturbed/bics bics-bgp1
-get smt-benchmark-properties benchmark=true, networkType=0, topologyPath="netsmt/disturbed/bics", guided=true, prune=false, number=50

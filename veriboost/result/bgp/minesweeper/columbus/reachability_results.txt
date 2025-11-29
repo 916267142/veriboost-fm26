@@ -1,1 +1,0 @@
-src_node	dst_node	tolerance	dstIps	sat/unsat	Conflicts	Decisions	TotalTime	AvgSolverTime	MaxSolverTime	MinSolverTime	AvgZ3Time	MaxZ3Time	MinZ3Time	AvgEncodingTime	dstPort	Variables	Constraints	MincutTime	PruneTime	CompressionTime	ToleranceOrigin	TolerancePrune	ToleranceCompression
