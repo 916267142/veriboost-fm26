@@ -152,13 +152,13 @@ We use *vscode* for both development and debugging.
 
 The following command serves as the main entry point for VeriBoost property verification:
 
-```
+```bash
 java -jar allinone/target/allinone-bundle-0.36.0.jar -cmdfile commands/benchmark-properties
 ```
 
 We explain the parameters for `benchmark-properties` as the following.
 
-```shell
+```bash
 **init-snapshot** <parameters>
 - `path`: Path to the initial network configuration
 - `name`: Log identifier for the current run
@@ -176,6 +176,6 @@ Example: `get smt-benchmark-properties benchmark=true, networkType=0, topologyPa
 
 Run VeriBoost with interactive mode.
 
-```
+```bash
 java -jar allinone/target/allinone-bundle-0.36.0.jar -runmode interactive -loglevel info -batfishmode workservice -coordinatorargs "-templatedirs questions"
 ```
