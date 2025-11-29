@@ -36,20 +36,11 @@ sudo sh ./tools/install_z3.sh
 
 Then, check the install of z3.
 
-```
+```bash
 z3 -h
 ```
 
-<!-- 
-- **Z3 JAR Replacement**: Replace the Z3 JAR path in the `pom.xml` file located in the main directory.
-
-- **Z3 Binary/Library Replacement**: 
-Ensure that Z3 binaries and libraries are replaced in the actual installation directories (default: `/usr/bin` for binaries and `/usr/lib` for libraries). 
-
-Here, provide the script `tools/change_z3.sh` to facilitate bin/lib replacement. Remember to modify the script with the appropriate paths before execution. -->
-
 **Important Notes:**
-<!-- - Lower versions of Z3 are not recommended as they may cause type errors in Minesweeper -->
 - Ensure the Z3 binary file has executable permission. If not, use:
 
 ```bash
@@ -58,7 +49,7 @@ sudo chmod +x Z3_BIN_PATH
 
 ### Complie VeriBoost
 
-```
+```bash
 cd veriboost
 make clean package
 ```
@@ -71,10 +62,8 @@ We have made the following modifications to the [Minesweeper](https://github.com
 
 - The `prune/` directory contains the implementation of VeriBoost.
 - Code segments between `VERIBOOST_ADD_BEGIN` and `VERIBOOST_ADD_END` mark our modifications to Minesweeper.
-<!-- - The `commands/` directory contains individual command entries for single runs.
-- The `tools/` directory contains scripts for reproducing the experiments in the paper. -->
 
-```shell
+```bash
 VeriBoost/
     |
     |----datasets/
@@ -104,7 +93,7 @@ VeriBoost/
 ### Scalability Evaluation
 
 1. Generate the properties to be verfied (`reaches.txt` will be generated)
-```
+```bash
 bash tools/run_properties.sh
 ```
 
@@ -115,12 +104,12 @@ bash tools/run_properties.sh
 
 - This file recall the entry point for the VeriBoost main program. For detailed parameter descriptions, see [Runtime Parameters](#runtime-parameters).
 
-```
+```bash
 bash tools/run_verification.sh
 ```
 
 3. Summarize experimental results from (`_results.txt` and `properties_summary.txt`) files. (`/all_summary.csv` will be generated for Minesweeper and VeriBoost).
-```
+```bash
 bash tools/run_batch_time.sh
 ```
 
