@@ -1,0 +1,7 @@
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+
+init-snapshot dataset/config2spec/bics/bgp bics
+get smt-reachability finalNodeRegex="geneva", finalIfaceRegex="GigabitEthernet0/0", ingressNodeRegex="peerfrankfurt7", fullModel=True, failures=3

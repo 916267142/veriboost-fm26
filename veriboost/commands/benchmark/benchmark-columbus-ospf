@@ -1,0 +1,10 @@
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+
+init-snapshot dataset/ospf/columbus columbus-veriboost
+get smt-benchmark-properties benchmark=true, networkType=0, topologyPath="ospf/columbus", guided=false, prune=true, number=25
+
+init-snapshot dataset/ospf/columbus columbus-minesweeper
+get smt-benchmark-properties benchmark=true, networkType=0, topologyPath="ospf/columbus", guided=false, prune=false, number=25

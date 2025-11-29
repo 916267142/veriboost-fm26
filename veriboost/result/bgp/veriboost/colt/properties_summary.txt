@@ -1,0 +1,53 @@
+Running ********************* 	
+The following are unverified : 	
+Numb of k = 1: 	200
+Time of k = 1: 	128.084
+Aver of k = 1: 	0.64042
+Numb of k = 2: 	250
+Time of k = 2: 	72.505
+Aver of k = 2: 	0.29002
+Numb of k = 3: 	300
+Time of k = 3: 	7.344
+Aver of k = 3: 	0.02448
+
+The following are verified : 	
+Numb of k = 1: 	100
+Time of k = 1: 	324.059
+Aver of k = 1: 	3.24059
+Numb of k = 2: 	50
+Time of k = 2: 	307.286
+Aver of k = 2: 	6.14572
+Numb of k = 3: 	0
+Time of k = 3: 	0.0
+Aver of k = 3: 	NaN
+
+Estimating ********************* 	
+The following are unverified : 	
+Numb of k = 1: 	15190
+Time of k = 1: 	9727.9798
+Aver of k = 1: 	0.64042
+Numb of k = 2: 	23386
+Time of k = 2: 	6782.40772
+Aver of k = 2: 	0.29002
+Numb of k = 3: 	23562
+Time of k = 3: 	576.79776
+Aver of k = 3: 	0.024480000000000002
+
+The following are verified : 	
+Numb of k = 1: 	8372
+Time of k = 1: 	27130.21948
+Aver of k = 1: 	3.24059
+Numb of k = 2: 	176
+Time of k = 2: 	1081.64672
+Aver of k = 2: 	6.14572
+Numb of k = 3: 	0
+Time of k = 3: 	NaN
+Aver of k = 3: 	NaN
+
+Details ********************* 	
+Time of Minc : 	0.1988888888888889
+Time of Prun : 	168131.56444444443
+Time of Comp : 	277300.84444444446
+Numb of Orgi : 	178.0
+Numb of Prun : 	81.09333333333333
+Numb of Comp : 	38.44

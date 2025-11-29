@@ -1,0 +1,13 @@
+add-batfish-option haltonconverterror
+add-batfish-option haltonparseerror
+add-batfish-option loglevel fatal
+add-batfish-option initinfo false
+
+init-snapshot dataset/netsmt/disturbed/bics bics-disturbed
+get smt-benchmark-properties benchmark=true, networkType=0, topologyPath="netsmt/disturbed/bics", guided=true, prune=false, number=50
+
+init-snapshot dataset/netsmt/disturbed/columbus columbus-disturbed
+get smt-benchmark-properties benchmark=true, networkType=0, topologyPath="netsmt/disturbed/columbus", guided=true, prune=false, number=50
+
+init-snapshot dataset/netsmt/disturbed/uscarrier uscarrier-disturbed
+get smt-benchmark-properties benchmark=true, networkType=0, topologyPath="netsmt/disturbed/uscarrier", guided=true, prune=false, number=50

@@ -1,0 +1,604 @@
+==========================================
+🔍 Batch comparison started at: 2025-11-29 19:33:27 CST
+🔍 Comparing: ./result/bgp/minesweeper/ vs ./result/bgp/veriboost/
+==========================================
+🔍 Starting batch comparison between ./result/bgp/minesweeper/ and ./result/bgp/veriboost/...
+
+📁 Finding common subdirectories...
+
+
+🔄 Starting individual comparisons...
+==========================================
+
+🔍 Comparing: colt
+  Source: ./result/bgp/minesweeper//colt
+  Target: ./result/bgp/veriboost//colt
+------------------------------------------
+✅ SUCCESS: Comparison completed for colt
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//colt and ./result/bgp/veriboost//colt...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//colt/properties_summary.txt: 100 50 0
+Extracted from ./result/bgp/veriboost//colt/properties_summary.txt: 100 50 0
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//colt=100, ./result/bgp/veriboost//colt=100 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//colt=50, ./result/bgp/veriboost//colt=50 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//colt=0, ./result/bgp/veriboost//colt=0 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_colt.log
+------------------------------------------
+
+🔍 Comparing: latnet
+  Source: ./result/bgp/minesweeper//latnet
+  Target: ./result/bgp/veriboost//latnet
+------------------------------------------
+✅ SUCCESS: Comparison completed for latnet
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//latnet and ./result/bgp/veriboost//latnet...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//latnet/properties_summary.txt: 62 12 0
+Extracted from ./result/bgp/veriboost//latnet/properties_summary.txt: 62 12 0
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//latnet=62, ./result/bgp/veriboost//latnet=62 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//latnet=12, ./result/bgp/veriboost//latnet=12 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//latnet=0, ./result/bgp/veriboost//latnet=0 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_latnet.log
+------------------------------------------
+
+🔍 Comparing: uscarrier
+  Source: ./result/bgp/minesweeper//uscarrier
+  Target: ./result/bgp/veriboost//uscarrier
+------------------------------------------
+✅ SUCCESS: Comparison completed for uscarrier
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//uscarrier and ./result/bgp/veriboost//uscarrier...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//uscarrier/properties_summary.txt: 112 62 12
+Extracted from ./result/bgp/veriboost//uscarrier/properties_summary.txt: 112 62 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//uscarrier=112, ./result/bgp/veriboost//uscarrier=112 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//uscarrier=62, ./result/bgp/veriboost//uscarrier=62 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//uscarrier=12, ./result/bgp/veriboost//uscarrier=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_uscarrier.log
+------------------------------------------
+
+🔍 Comparing: columbus
+  Source: ./result/bgp/minesweeper//columbus
+  Target: ./result/bgp/veriboost//columbus
+------------------------------------------
+✅ SUCCESS: Comparison completed for columbus
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//columbus and ./result/bgp/veriboost//columbus...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//columbus/properties_summary.txt: 140 90 40
+Extracted from ./result/bgp/veriboost//columbus/properties_summary.txt: 140 90 40
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//columbus=140, ./result/bgp/veriboost//columbus=140 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//columbus=90, ./result/bgp/veriboost//columbus=90 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//columbus=40, ./result/bgp/veriboost//columbus=40 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_columbus.log
+------------------------------------------
+
+🔍 Comparing: esnet
+  Source: ./result/bgp/minesweeper//esnet
+  Target: ./result/bgp/veriboost//esnet
+------------------------------------------
+✅ SUCCESS: Comparison completed for esnet
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//esnet and ./result/bgp/veriboost//esnet...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//esnet/properties_summary.txt: 112 62 12
+Extracted from ./result/bgp/veriboost//esnet/properties_summary.txt: 112 62 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//esnet=112, ./result/bgp/veriboost//esnet=112 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//esnet=62, ./result/bgp/veriboost//esnet=62 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//esnet=12, ./result/bgp/veriboost//esnet=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_esnet.log
+------------------------------------------
+
+🔍 Comparing: arnes
+  Source: ./result/bgp/minesweeper//arnes
+  Target: ./result/bgp/veriboost//arnes
+------------------------------------------
+✅ SUCCESS: Comparison completed for arnes
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//arnes and ./result/bgp/veriboost//arnes...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//arnes/properties_summary.txt: 150 100 50
+Extracted from ./result/bgp/veriboost//arnes/properties_summary.txt: 150 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//arnes=150, ./result/bgp/veriboost//arnes=150 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//arnes=100, ./result/bgp/veriboost//arnes=100 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//arnes=50, ./result/bgp/veriboost//arnes=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_arnes.log
+------------------------------------------
+
+🔍 Comparing: cogentco
+  Source: ./result/bgp/minesweeper//cogentco
+  Target: ./result/bgp/veriboost//cogentco
+------------------------------------------
+✅ SUCCESS: Comparison completed for cogentco
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//cogentco and ./result/bgp/veriboost//cogentco...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//cogentco/properties_summary.txt: 150 100 50
+Extracted from ./result/bgp/veriboost//cogentco/properties_summary.txt: 150 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//cogentco=150, ./result/bgp/veriboost//cogentco=150 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//cogentco=100, ./result/bgp/veriboost//cogentco=100 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//cogentco=50, ./result/bgp/veriboost//cogentco=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_cogentco.log
+------------------------------------------
+
+🔍 Comparing: renater
+  Source: ./result/bgp/minesweeper//renater
+  Target: ./result/bgp/veriboost//renater
+------------------------------------------
+✅ SUCCESS: Comparison completed for renater
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//renater and ./result/bgp/veriboost//renater...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//renater/properties_summary.txt: 94 44 12
+Extracted from ./result/bgp/veriboost//renater/properties_summary.txt: 94 44 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//renater=94, ./result/bgp/veriboost//renater=94 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//renater=44, ./result/bgp/veriboost//renater=44 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//renater=12, ./result/bgp/veriboost//renater=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_renater.log
+------------------------------------------
+
+🔍 Comparing: bics
+  Source: ./result/bgp/minesweeper//bics
+  Target: ./result/bgp/veriboost//bics
+------------------------------------------
+✅ SUCCESS: Comparison completed for bics
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//bics and ./result/bgp/veriboost//bics...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//bics/properties_summary.txt: 150 100 50
+Extracted from ./result/bgp/veriboost//bics/properties_summary.txt: 150 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//bics=150, ./result/bgp/veriboost//bics=150 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//bics=100, ./result/bgp/veriboost//bics=100 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//bics=50, ./result/bgp/veriboost//bics=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.L7FwItFO1w/comparison_bics.log
+------------------------------------------
+
+🎯 BATCH COMPARISON COMPLETE
+============================
+🎉 SUCCESS: All comparisons completed successfully!
+
+📝 Log files created:
+  Detailed log: result/correctness/batch_comparison.log
+  Summary log: result/correctness/batch_summary.log
+==========================================
+🔍 Batch comparison started at: 2025-11-29 19:33:27 CST
+🔍 Comparing: ./result/ospf/minesweeper/ vs ./result/ospf/veriboost/
+==========================================
+🔍 Starting batch comparison between ./result/ospf/minesweeper/ and ./result/ospf/veriboost/...
+
+📁 Finding common subdirectories...
+
+
+🔄 Starting individual comparisons...
+==========================================
+
+🔍 Comparing: uscarrier
+  Source: ./result/ospf/minesweeper//uscarrier
+  Target: ./result/ospf/veriboost//uscarrier
+------------------------------------------
+✅ SUCCESS: Comparison completed for uscarrier
+🔍 Starting comparison of properties_summary.txt in ./result/ospf/minesweeper//uscarrier and ./result/ospf/veriboost//uscarrier...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/ospf/minesweeper//uscarrier/properties_summary.txt: 112 62 12
+Extracted from ./result/ospf/veriboost//uscarrier/properties_summary.txt: 112 62 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/ospf/minesweeper//uscarrier=112, ./result/ospf/veriboost//uscarrier=112 - ✅ MATCH
+k=2 (verified): ./result/ospf/minesweeper//uscarrier=62, ./result/ospf/veriboost//uscarrier=62 - ✅ MATCH
+k=3 (verified): ./result/ospf/minesweeper//uscarrier=12, ./result/ospf/veriboost//uscarrier=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.z6PKILk91p/comparison_uscarrier.log
+------------------------------------------
+
+🔍 Comparing: columbus
+  Source: ./result/ospf/minesweeper//columbus
+  Target: ./result/ospf/veriboost//columbus
+------------------------------------------
+✅ SUCCESS: Comparison completed for columbus
+🔍 Starting comparison of properties_summary.txt in ./result/ospf/minesweeper//columbus and ./result/ospf/veriboost//columbus...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/ospf/minesweeper//columbus/properties_summary.txt: 140 90 40
+Extracted from ./result/ospf/veriboost//columbus/properties_summary.txt: 140 90 40
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/ospf/minesweeper//columbus=140, ./result/ospf/veriboost//columbus=140 - ✅ MATCH
+k=2 (verified): ./result/ospf/minesweeper//columbus=90, ./result/ospf/veriboost//columbus=90 - ✅ MATCH
+k=3 (verified): ./result/ospf/minesweeper//columbus=40, ./result/ospf/veriboost//columbus=40 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.z6PKILk91p/comparison_columbus.log
+------------------------------------------
+
+🔍 Comparing: bics
+  Source: ./result/ospf/minesweeper//bics
+  Target: ./result/ospf/veriboost//bics
+------------------------------------------
+✅ SUCCESS: Comparison completed for bics
+🔍 Starting comparison of properties_summary.txt in ./result/ospf/minesweeper//bics and ./result/ospf/veriboost//bics...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/ospf/minesweeper//bics/properties_summary.txt: 151 100 50
+Extracted from ./result/ospf/veriboost//bics/properties_summary.txt: 151 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/ospf/minesweeper//bics=151, ./result/ospf/veriboost//bics=151 - ✅ MATCH
+k=2 (verified): ./result/ospf/minesweeper//bics=100, ./result/ospf/veriboost//bics=100 - ✅ MATCH
+k=3 (verified): ./result/ospf/minesweeper//bics=50, ./result/ospf/veriboost//bics=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.z6PKILk91p/comparison_bics.log
+------------------------------------------
+
+🎯 BATCH COMPARISON COMPLETE
+============================
+🎉 SUCCESS: All comparisons completed successfully!
+
+📝 Log files created:
+  Detailed log: result/correctness/batch_comparison.log
+  Summary log: result/correctness/batch_summary.log
+==========================================
+🔍 Batch comparison started at: 2025-11-29 21:05:16 CST
+🔍 Comparing: ./result/bgp/minesweeper/ vs ./result/bgp/veriboost/
+==========================================
+🔍 Starting batch comparison between ./result/bgp/minesweeper/ and ./result/bgp/veriboost/...
+
+📁 Finding common subdirectories...
+
+
+🔄 Starting individual comparisons...
+==========================================
+
+🔍 Comparing: colt
+  Source: ./result/bgp/minesweeper//colt
+  Target: ./result/bgp/veriboost//colt
+------------------------------------------
+✅ SUCCESS: Comparison completed for colt
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//colt and ./result/bgp/veriboost//colt...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//colt/properties_summary.txt: 100 50 0
+Extracted from ./result/bgp/veriboost//colt/properties_summary.txt: 100 50 0
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//colt=100, ./result/bgp/veriboost//colt=100 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//colt=50, ./result/bgp/veriboost//colt=50 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//colt=0, ./result/bgp/veriboost//colt=0 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_colt.log
+------------------------------------------
+
+🔍 Comparing: latnet
+  Source: ./result/bgp/minesweeper//latnet
+  Target: ./result/bgp/veriboost//latnet
+------------------------------------------
+✅ SUCCESS: Comparison completed for latnet
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//latnet and ./result/bgp/veriboost//latnet...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//latnet/properties_summary.txt: 62 12 0
+Extracted from ./result/bgp/veriboost//latnet/properties_summary.txt: 62 12 0
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//latnet=62, ./result/bgp/veriboost//latnet=62 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//latnet=12, ./result/bgp/veriboost//latnet=12 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//latnet=0, ./result/bgp/veriboost//latnet=0 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_latnet.log
+------------------------------------------
+
+🔍 Comparing: uscarrier
+  Source: ./result/bgp/minesweeper//uscarrier
+  Target: ./result/bgp/veriboost//uscarrier
+------------------------------------------
+✅ SUCCESS: Comparison completed for uscarrier
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//uscarrier and ./result/bgp/veriboost//uscarrier...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//uscarrier/properties_summary.txt: 112 62 12
+Extracted from ./result/bgp/veriboost//uscarrier/properties_summary.txt: 112 62 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//uscarrier=112, ./result/bgp/veriboost//uscarrier=112 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//uscarrier=62, ./result/bgp/veriboost//uscarrier=62 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//uscarrier=12, ./result/bgp/veriboost//uscarrier=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_uscarrier.log
+------------------------------------------
+
+🔍 Comparing: columbus
+  Source: ./result/bgp/minesweeper//columbus
+  Target: ./result/bgp/veriboost//columbus
+------------------------------------------
+✅ SUCCESS: Comparison completed for columbus
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//columbus and ./result/bgp/veriboost//columbus...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//columbus/properties_summary.txt: 140 90 40
+Extracted from ./result/bgp/veriboost//columbus/properties_summary.txt: 140 90 40
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//columbus=140, ./result/bgp/veriboost//columbus=140 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//columbus=90, ./result/bgp/veriboost//columbus=90 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//columbus=40, ./result/bgp/veriboost//columbus=40 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_columbus.log
+------------------------------------------
+
+🔍 Comparing: esnet
+  Source: ./result/bgp/minesweeper//esnet
+  Target: ./result/bgp/veriboost//esnet
+------------------------------------------
+✅ SUCCESS: Comparison completed for esnet
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//esnet and ./result/bgp/veriboost//esnet...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//esnet/properties_summary.txt: 112 62 12
+Extracted from ./result/bgp/veriboost//esnet/properties_summary.txt: 112 62 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//esnet=112, ./result/bgp/veriboost//esnet=112 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//esnet=62, ./result/bgp/veriboost//esnet=62 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//esnet=12, ./result/bgp/veriboost//esnet=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_esnet.log
+------------------------------------------
+
+🔍 Comparing: arnes
+  Source: ./result/bgp/minesweeper//arnes
+  Target: ./result/bgp/veriboost//arnes
+------------------------------------------
+✅ SUCCESS: Comparison completed for arnes
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//arnes and ./result/bgp/veriboost//arnes...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//arnes/properties_summary.txt: 150 100 50
+Extracted from ./result/bgp/veriboost//arnes/properties_summary.txt: 150 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//arnes=150, ./result/bgp/veriboost//arnes=150 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//arnes=100, ./result/bgp/veriboost//arnes=100 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//arnes=50, ./result/bgp/veriboost//arnes=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_arnes.log
+------------------------------------------
+
+🔍 Comparing: cogentco
+  Source: ./result/bgp/minesweeper//cogentco
+  Target: ./result/bgp/veriboost//cogentco
+------------------------------------------
+✅ SUCCESS: Comparison completed for cogentco
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//cogentco and ./result/bgp/veriboost//cogentco...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//cogentco/properties_summary.txt: 150 100 50
+Extracted from ./result/bgp/veriboost//cogentco/properties_summary.txt: 150 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//cogentco=150, ./result/bgp/veriboost//cogentco=150 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//cogentco=100, ./result/bgp/veriboost//cogentco=100 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//cogentco=50, ./result/bgp/veriboost//cogentco=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_cogentco.log
+------------------------------------------
+
+🔍 Comparing: renater
+  Source: ./result/bgp/minesweeper//renater
+  Target: ./result/bgp/veriboost//renater
+------------------------------------------
+✅ SUCCESS: Comparison completed for renater
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//renater and ./result/bgp/veriboost//renater...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//renater/properties_summary.txt: 94 44 12
+Extracted from ./result/bgp/veriboost//renater/properties_summary.txt: 94 44 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//renater=94, ./result/bgp/veriboost//renater=94 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//renater=44, ./result/bgp/veriboost//renater=44 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//renater=12, ./result/bgp/veriboost//renater=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_renater.log
+------------------------------------------
+
+🔍 Comparing: bics
+  Source: ./result/bgp/minesweeper//bics
+  Target: ./result/bgp/veriboost//bics
+------------------------------------------
+✅ SUCCESS: Comparison completed for bics
+🔍 Starting comparison of properties_summary.txt in ./result/bgp/minesweeper//bics and ./result/bgp/veriboost//bics...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/bgp/minesweeper//bics/properties_summary.txt: 150 100 50
+Extracted from ./result/bgp/veriboost//bics/properties_summary.txt: 150 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/bgp/minesweeper//bics=150, ./result/bgp/veriboost//bics=150 - ✅ MATCH
+k=2 (verified): ./result/bgp/minesweeper//bics=100, ./result/bgp/veriboost//bics=100 - ✅ MATCH
+k=3 (verified): ./result/bgp/minesweeper//bics=50, ./result/bgp/veriboost//bics=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.kkyUEKbBgg/comparison_bics.log
+------------------------------------------
+
+🎯 BATCH COMPARISON COMPLETE
+============================
+🎉 SUCCESS: All comparisons completed successfully!
+
+📝 Log files created:
+  Detailed log: result/correctness/batch_comparison.log
+  Summary log: result/correctness/batch_summary.log
+==========================================
+🔍 Batch comparison started at: 2025-11-29 21:05:16 CST
+🔍 Comparing: ./result/ospf/minesweeper/ vs ./result/ospf/veriboost/
+==========================================
+🔍 Starting batch comparison between ./result/ospf/minesweeper/ and ./result/ospf/veriboost/...
+
+📁 Finding common subdirectories...
+
+
+🔄 Starting individual comparisons...
+==========================================
+
+🔍 Comparing: uscarrier
+  Source: ./result/ospf/minesweeper//uscarrier
+  Target: ./result/ospf/veriboost//uscarrier
+------------------------------------------
+✅ SUCCESS: Comparison completed for uscarrier
+🔍 Starting comparison of properties_summary.txt in ./result/ospf/minesweeper//uscarrier and ./result/ospf/veriboost//uscarrier...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/ospf/minesweeper//uscarrier/properties_summary.txt: 112 62 12
+Extracted from ./result/ospf/veriboost//uscarrier/properties_summary.txt: 112 62 12
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/ospf/minesweeper//uscarrier=112, ./result/ospf/veriboost//uscarrier=112 - ✅ MATCH
+k=2 (verified): ./result/ospf/minesweeper//uscarrier=62, ./result/ospf/veriboost//uscarrier=62 - ✅ MATCH
+k=3 (verified): ./result/ospf/minesweeper//uscarrier=12, ./result/ospf/veriboost//uscarrier=12 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.z8HS0vjfGF/comparison_uscarrier.log
+------------------------------------------
+
+🔍 Comparing: columbus
+  Source: ./result/ospf/minesweeper//columbus
+  Target: ./result/ospf/veriboost//columbus
+------------------------------------------
+✅ SUCCESS: Comparison completed for columbus
+🔍 Starting comparison of properties_summary.txt in ./result/ospf/minesweeper//columbus and ./result/ospf/veriboost//columbus...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/ospf/minesweeper//columbus/properties_summary.txt: 140 90 40
+Extracted from ./result/ospf/veriboost//columbus/properties_summary.txt: 140 90 40
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/ospf/minesweeper//columbus=140, ./result/ospf/veriboost//columbus=140 - ✅ MATCH
+k=2 (verified): ./result/ospf/minesweeper//columbus=90, ./result/ospf/veriboost//columbus=90 - ✅ MATCH
+k=3 (verified): ./result/ospf/minesweeper//columbus=40, ./result/ospf/veriboost//columbus=40 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.z8HS0vjfGF/comparison_columbus.log
+------------------------------------------
+
+🔍 Comparing: bics
+  Source: ./result/ospf/minesweeper//bics
+  Target: ./result/ospf/veriboost//bics
+------------------------------------------
+✅ SUCCESS: Comparison completed for bics
+🔍 Starting comparison of properties_summary.txt in ./result/ospf/minesweeper//bics and ./result/ospf/veriboost//bics...
+📊 Extracting verified numbers from Running section...
+Extracted from ./result/ospf/minesweeper//bics/properties_summary.txt: 151 100 50
+Extracted from ./result/ospf/veriboost//bics/properties_summary.txt: 151 100 50
+
+📊 Comparison Results:
+======================
+k=1 (verified): ./result/ospf/minesweeper//bics=151, ./result/ospf/veriboost//bics=151 - ✅ MATCH
+k=2 (verified): ./result/ospf/minesweeper//bics=100, ./result/ospf/veriboost//bics=100 - ✅ MATCH
+k=3 (verified): ./result/ospf/minesweeper//bics=50, ./result/ospf/veriboost//bics=50 - ✅ MATCH
+
+🎯 FINAL SUMMARY
+================
+🎉 SUCCESS: All verified 'Numb of k' values in Running section match perfectly!
+📝 Detailed log saved to: /tmp/tmp.z8HS0vjfGF/comparison_bics.log
+------------------------------------------
+
+🎯 BATCH COMPARISON COMPLETE
+============================
+🎉 SUCCESS: All comparisons completed successfully!
+
+📝 Log files created:
+  Detailed log: result/correctness/batch_comparison.log
+  Summary log: result/correctness/batch_summary.log
