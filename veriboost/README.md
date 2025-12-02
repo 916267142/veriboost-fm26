@@ -170,7 +170,7 @@ We use *vscode* for both development and debugging.
 The following command serves as the main entry point for VeriBoost property verification:
 
 ```bash
-java -jar allinone/target/allinone-bundle-0.36.0.jar -cmdfile commands/benchmark-properties
+java -jar allinone/target/allinone-bundle-0.36.0.jar -cmdfile commands/benchmark/benchmark-properties
 ```
 
 We explain the parameters for `benchmark-properties` as the following.
