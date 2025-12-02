@@ -25,6 +25,11 @@ Our modifications aim to reduce the SMT solving space by reducing the symbolic l
 - **Z3:** version 4.12
 - **Git**
 
+Note that all the following steps are performed in the root directory.
+```bash
+cd veriboost/
+```
+
 ### Install Z3
 
 Minesweeper and VeriBoost rely on [Z3](https://github.com/Z3Prover/z3). 
@@ -34,24 +39,36 @@ To facilitate deployment, we package z3 in our `tools/`.
 sudo sh ./tools/install_z3.sh
 ```
 
+After running the installation script, the following Z3 files will be installed on your system:
+
+- **Library files**
+  - `/usr/lib/libz3.so`  
+  - `/usr/lib/libz3java.so`  
+
+- **Executable files** 
+  - `/usr/bin/z3`  
+  - `$HOME/.local/bin/z3`  
+
 Then, check the install of z3.
 
 ```bash
-z3 -h
+z3 -version
 ```
 
+You should see output similar to: *Z3 version 4.12.2 - 64 bit*
+
+<!-- 
 **Important Notes:**
 - Ensure the Z3 binary file has executable permission. If not, use:
 
 ```bash
 sudo chmod +x Z3_BIN_PATH
-```
+``` -->
 
 ### Complie VeriBoost
 
 ```bash
-cd veriboost
-make clean package
+mvn clean package
 ```
 
 ------------------------------------------
@@ -64,7 +81,7 @@ We have made the following modifications to the [Minesweeper](https://github.com
 - Code segments between `VERIBOOST_ADD_BEGIN` and `VERIBOOST_ADD_END` mark our modifications to Minesweeper.
 
 ```bash
-VeriBoost/
+veriboost/
     |
     |----datasets/
     |----results/     
