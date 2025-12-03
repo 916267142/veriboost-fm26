@@ -37,6 +37,6 @@ stats 'data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using 1 nooutput
 N = STATS_records
 
 plot \
-  '< sort -n -k1,1 data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using ($1*100):(100.*(N-($0+1)+1)/N) with lines ls 3 lw 7 title 'Link Compression', \
-  '< sort -n -k2,2 data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using ($2*100):(100.*(N-($0+1)+1)/N) with lines ls 2 lw 7 title 'Link Pruning', \
-  '< sort -n -k3,3 data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using ($3*100):(100.*(N-($0+1)+1)/N) with lines ls 5 lw 7 title 'Both Methods'
+  '< sort -n -k1,1 data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using ($1*100):(100.*(N-($0+1)+1)/N) with lines ls 3 lw 7 dt 3 title 'Link Compression', \
+  '< sort -n -k2,2 data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using ($2*100):(100.*(N-($0+1)+1)/N) with lines ls 2 lw 7 dt 2 title 'Link Pruning', \
+  '< sort -n -k3,3 data/MicroBenchMark-MaximumNumber-SymbolicLinks-CDF.dat' using ($3*100):(100.*(N-($0+1)+1)/N) with lines ls 5 lw 7 dt 1 title 'Both Methods'
